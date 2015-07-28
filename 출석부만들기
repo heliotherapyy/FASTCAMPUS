@@ -1,0 +1,15 @@
+# Hyungsuk Kim
+attendances = {}
+
+class Student(object):
+    def __init__(self, name):
+        self.name = name
+
+def call(Student):
+    attendances[Student.name] = True
+
+def print_attendances_list():
+    for student in attendances.keys() :
+        print (student)
+
+
